@@ -93,7 +93,8 @@ ENTRYPOINT ["python3", "-u", "-m", "http.server"]
 ====================================================
 
 ### Docker Push 연습 
-
+먼저 hub.docker.com에 로그인해서 repository를 새로 만들어야한다.  
+`docker login`  
 `docker run -it --name my-python ubuntu`  
 `docker commit my-python tebin/python3:1.0`  
 (hub.docker.com)에서 레파지토리를 만들어야한다.  
